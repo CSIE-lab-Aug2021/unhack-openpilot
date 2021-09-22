@@ -121,13 +121,14 @@ $$D=P_L\cdot P_R\frac{P_L\cdot L+P_R\cdot R}{P_L+P_R+0.0001} + (1-P_L\cdot P_R)\
 
 The result is transmitted to the control module as a PathPlan. There is a lot of code which calculates accelerations, steering angles and checks braking. Very complex and hard to read. In general it seems that control module will execute the path via [PID](https://en.wikipedia.org/wiki/PID_controller), [LQR](https://en.wikipedia.org/wiki/Linear%E2%80%93quadratic_regulator) or INDI controller.
 
-## Run the code
+## Run the code to build a docker image!!!
 
 ```shell
     > make notebook
 ```
 
 Takes some time to build a docker image
+
 
 ## todo
 
